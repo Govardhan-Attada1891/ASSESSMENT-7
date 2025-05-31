@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Music World</title>
+    <style>
+        body {
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        header {
+            font-size: 36px;
+            font-weight: bold;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            margin: 10px;
+            text-decoration: none;
+            padding: 10px 15px;
+            background-color: #555;
+            border-radius: 5px;
+        }
+        section {
+            margin: 20px;
+        }
+        h2 {
+            border-bottom: 2px dotted #aaa;
+            padding-bottom: 5px;
+        }
+        .album-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .album-container img {
+            height: 150px;
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <header>Music World</header>
+    <nav>
+        <a href="#">HOME</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CATEGORY</a>
+        <a href="#">PRODUCTION</a>
+        <a href="#">GALLERY</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">LOGIN</a>
+    </nav>
+
+    <section>
+        <h2>Latest Album</h2>
+        <div class="album-container">
+            <img src="album1.jpg" alt="Album">
+            <img src="album2.jpg" alt="Album">
+            <img src="album3.jpg" alt="Album">
+            <!-- Add more as needed -->
+        </div>
+    </section>
+
+    <section>
+        <h2>TOP 10 Songs</h2>
+        <div class="album-container">
+            <img src="song1.jpg" alt="Song">
+            <img src="song2.jpg" alt="Song">
+            <!-- Add more -->
+        </div>
+    </section>
+
+    <section>
+        <h2>Top 10 Artist</h2>
+        <div class="album-container">
+            <img src="artist1.jpg" alt="Artist">
+            <img src="artist2.jpg" alt="Artist">
+            <!-- Add more -->
+        </div>
+    </section>
+</body>
+</html>
